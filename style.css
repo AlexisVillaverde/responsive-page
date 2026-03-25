@@ -75,6 +75,7 @@ body {
     color: #2563eb;
 }
 
+
 .presentacion {
     display: flex;
     justify-content: space-between;
@@ -175,22 +176,16 @@ body {
     gap: 15px;
 }
 
-.icono-red {
-    width: 40px;
-    height: 40px;
-    background-color: #f8fafc;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: #2563eb;
+.icon {
+    width: 35px;
+    height: auto;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease; /* Efecto suave de movimiento */
 }
 
-.icono-red:hover {
-    background-color: #e2e8f0;
+/* Efecto para hacer más grandes al pasar el mouse */
+.icon:hover {
+    transform: scale(1.1);
 }
 
 /* Responsivo */
